@@ -44,5 +44,5 @@ public class CotxeEvents {
         if (oldValue != this.gasolina) {
             llistaObservers.firePropertyChange("gasolina", oldValue, newValue);
         }
-    }
+    }       
 }
